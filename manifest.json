@@ -1,0 +1,11 @@
+{
+    "name": "Dnd Browser Extension Idea",
+    "version": "0.0.1",
+    "description": "An extension that will allow you to make notes for your dnd campaign and organise them by date/session number",
+    "manifest_version": 3,
+    "author": "Oliver",
+    "action": {
+        "deafult_popup": "index.html",
+        "deafult_title": "Dnd Browser Extension Idea"
+    }
+}
