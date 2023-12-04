@@ -14,8 +14,9 @@ html, body {
 }
 
 #logo {
-    width: 6.5em;
-    height: 5em;
+    width: 10%;
+    height: 10%;
+    position: static;
 }
 
 h2 {
