@@ -3,10 +3,10 @@ function insertAfter( newEl, refEl ) {
     refEl.parentNode.insertBefore( newEl, refEl.nextSibling );
 }
 
-var editElement = getById('myContent');
-var undoButton = getById('undo');
-var SaveButton = getById('save');
-var oirignalContent = editElement.innerHTML;
+var editElement = document.getElementById('myContent');
+var undoButton = document.getElementById('undo');
+var SaveButton = document.getElementById('save');
+var originalContent = editElement.innerHTML;
 var updatedContent = "";
 
 
@@ -39,7 +39,7 @@ editElement.addEventListener('keypress', function () {
 
 // save button updates to updatedContent var
 SaveButton.addEventListener('click', function() {
-    updatedContent = getById('myContent').innerHTML;
+    updatedContent = document.getElementById('myContent').innerHTML;
     
     if (updatedContent !== originalContent) {
         undoButton.disabled = false;
