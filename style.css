@@ -1,0 +1,81 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    background-color: #6f6d6d;
+}
+
+.container {
+    margin: 1em;
+    padding: 1.5rem;
+    position: relative;
+    width: 60%;
+}
+
+#logo {
+    width: 6.5em;
+    height: 5em;
+}
+
+h2 {
+    position: relative;
+    width: auto;
+    margin: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0.12em;
+    font-weight: bold;
+}
+
+[contenteditable] {
+    font-size: 1.75rem;
+    padding: .25em 0em;
+    margin-left: auto;
+    transition: padding .3s ease-in-out;
+}
+
+[contenteditable]:hover,
+[contenteditable]:focus {
+    padding: .25em
+}
+
+[contenteditable]:hover {
+    background: #3d4a57;
+    outline: 2px solid #eeeeee;
+}
+
+[contenteditable]:focus {
+    background: #d1bea8;
+    outline: 2px solid lightblue;
+}
+
+.button {
+    background: #ffffff;
+    color: darkslategrey;
+    border: 1px solid darkgreen;
+    box-shadow: inset 0 0 0 1px;
+    font-size: 1em;
+    padding: 1.75em;
+    margin-right: .5em;
+}
+
+.button[disabled] {
+    color: #666666;
+    border-color: #dddddd;
+    opacity: .5;
+
+}
+
+.button:not([disabled]):hover,
+.button:not([disabled]):focus {
+    outline: 3px solid;
+    outline-offset: 1px;
+}
+
+.button:not([disabled]):active {
+    background: darkslategray;
+    color: #ffffff;
+}
