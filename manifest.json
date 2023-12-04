@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "author": "Oliver",
     "action": {
-        "deafult_popup": "index.html",
-        "deafult_title": "Dnd Browser Extension Idea"
+        "default_popup": "index.html",
+        "default_title": "Dnd Browser Extension Idea"
     }
 }
